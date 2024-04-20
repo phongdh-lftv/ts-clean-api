@@ -1,0 +1,42 @@
+{
+  "name": "ts-clean-api",
+  "version": "1.0.0",
+  "description": "Typescript Clean API",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest --watchAll --collectCoverage",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "nodemon --watch ./src/"
+  },
+  "keywords": [
+    "Typescript",
+    "Clean",
+    "Architecture",
+    "API"
+  ],
+  "author": "mr.stormcs@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "module-alias": "^2.2.3",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.2.2",
+    "routing-controllers": "^0.10.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.12.7",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
